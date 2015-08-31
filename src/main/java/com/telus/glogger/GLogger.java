@@ -106,6 +106,12 @@ public final class GLogger {
 			Thread.sleep(5000);
 	
 			driver.findElement(By.id("loggin-input_accept")).click();
+			
+			Thread.sleep(2000);
+			
+			if (driver.findElement(By.id("myModalConfimShiftBefore8Hours"))!=null){
+				driver.findElement(By.id("myModalConfimShiftBefore8Hours")).click();
+			}
 	
 			for (int second = 0;; second++) {
 				if (second >= 60) {
