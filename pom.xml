@@ -40,7 +40,7 @@
 	
 	<build>
 	
-		<finalName>glogger</finalName>
+		<finalName>glogger</finalName> 
 		
 		<plugins>
 
