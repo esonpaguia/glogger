@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Java\jdk1.8.0_60\bin\java" -jar glogger-checkin-0.0.1-SNAPSHOT-jar-with-dependencies.jar config.properties

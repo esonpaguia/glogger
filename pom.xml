@@ -39,6 +39,9 @@
 	</dependencies>
 	
 	<build>
+	
+		<finalName>glogger</finalName>
+		
 		<plugins>
 
 			<plugin>
