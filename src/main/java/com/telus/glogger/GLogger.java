@@ -97,10 +97,10 @@ public final class GLogger {
 			driver.get(baseUrl);
 			driver.findElement(By.id("loggin-input_username")).clear();
 			driver.findElement(By.id("loggin-input_username")).sendKeys(
-					"eddison.paguia");
+					username);
 			driver.findElement(By.id("loggin-input_password")).clear();
 			driver.findElement(By.id("loggin-input_password"))
-					.sendKeys("Password1");
+					.sendKeys(password);
 			driver.findElement(By.id("loggin-input_username")).click();
 	
 			Thread.sleep(5000);
