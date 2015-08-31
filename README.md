@@ -6,7 +6,7 @@
 
   Syntax:
   ```
-  java -jar glogger-checkin-0.0.1-SNAPSHOT-jar-with-dependencies.jar [_config_file_path_]
+  java -jar glogger-checkin-0.0.1-SNAPSHOT-jar-with-dependencies.jar [*CONFIG FILE PATH*]
   ```
 
   Example: 
