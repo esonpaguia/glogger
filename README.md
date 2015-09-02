@@ -21,7 +21,7 @@ java -jar glogger-jar-with-dependencies.jar config.properties
 
 ## Configuration
 
-  * toCloseWindow - to close or not to close the initialized/launched window. 
+  * toCloseWindow - to close or not to close the initialized browser window. 
 
 ## To do
 
