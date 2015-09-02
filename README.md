@@ -1,7 +1,6 @@
 # GLogger Utility
 
-  * Functions:
-    - [ ] Log you in GLogger.
+  * Logs you in GLogger.
 
 ## Requisites
 
