@@ -1,6 +1,7 @@
-# GLogger Check In
+# GLogger Utility
 
-Logs you in GLogger.
+  * Functions:
+    - [ ] Log you in GLogger.
 
 ## Requisites
 
