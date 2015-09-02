@@ -21,7 +21,7 @@ java -jar glogger-jar-with-dependencies.jar config.properties
 
 ## Configuration
 
-  * toCloseWindow - flag if you want to keep the opened window or not. 
+  * toCloseWindow - to close or not to close the initialized/launched window. 
 
 ## To do
 
