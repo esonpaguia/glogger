@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\Java\jdk1.8.0_60\bin\java" -jar glogger-jar-with-dependencies.jar config.properties
+"C:\Program Files (x86)\Java\jdk1.8.0_60\bin\java.exe" -jar "C:\Users\x118939\workspace\TIP\glogger\target\glogger\glogger.jar" "C:\Users\x118939\workspace\TIP\glogger\target\glogger\config.properties" 

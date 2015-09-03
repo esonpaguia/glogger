@@ -23,6 +23,12 @@ java -jar glogger-jar-with-dependencies.jar config.properties
 
   * toCloseWindow - to close or not to close the initialized browser window. 
 
+## Task Scheduler setup
+
+  * Program: ```"C:\Program Files (x86)\Java\jdk1.8.0_60\bin\java.exe"_```
+  * Add arguments: ```-jar "C:\Users\eson\workspace\glogger\target\glogger\glogger.jar" "C:\Users\eson\workspace\glogger\target\glogger\config.properties"```
+  * Start in: ```C:\Users\eson\workspace\glogger\target\glogger```
+	
 ## To do
 
 - [ ] Figure out check out, meal in and meal out
