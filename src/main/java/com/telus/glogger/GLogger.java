@@ -116,33 +116,17 @@ public final class GLogger {
 			driver.findElement(By.id("loggin-input_password")).sendKeys(password);
 			driver.findElement(By.id("loggin-input_username")).click();
 
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 
 			driver.findElement(By.id("loggin-input_accept")).click();
-
+			
 			Thread.sleep(2000);
-
-			if (driver.findElement(By.id("myModalConfimShiftBefore8Hours")) != null) {
-				driver.findElement(By.id("myModalConfimShiftBefore8Hours")).click();
-			}
-
-			for (int second = 0;; second++) {
-				if (second >= 60) {
-					verificationErrors.append("timeout");
-				}
-				try {
-					if ("Global Logger".equals(driver.getTitle()))
-						break;
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-				Thread.sleep(1000);
-			}
-
+			
 			try {
 				Assert.assertEquals("You are signed in as: " + username
 						+ " (Ortigas Center) | Tutorial | Sign out", driver
 						.findElement(By.cssSelector("#loggin > div")).getText());
+				logger.info("Successfully checked in.");
 			} catch (Error e) {
 				verificationErrors.append(e.toString());
 			}
@@ -150,9 +134,7 @@ public final class GLogger {
 			String verificationErrorString = verificationErrors.toString();
 			if (!"".equals(verificationErrorString)) {
 				logger.error(verificationErrorString);
-			} else {
-				logger.info("Successfully checked in.");
-			}
+			} 
 
 		} finally {
 			if (toCloseWindow)
