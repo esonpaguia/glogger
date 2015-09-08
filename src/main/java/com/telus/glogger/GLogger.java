@@ -120,7 +120,7 @@ public final class GLogger {
 
 			driver.findElement(By.id("loggin-input_accept")).click();
 			
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			
 			try {
 				Assert.assertEquals("You are signed in as: " + username
