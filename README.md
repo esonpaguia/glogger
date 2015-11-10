@@ -36,9 +36,18 @@ java -jar glogger-jar-with-dependencies.jar config.properties
 
 ## Task Scheduler
 
-  * Program: ```"C:\Program Files (x86)\Java\jdk1.8.0_60\bin\java.exe"_```
-  * Add arguments: ```-jar "C:\Users\eson\workspace\glogger\target\glogger\glogger.jar" "C:\Users\eson\workspace\glogger\target\glogger\config.properties"```
-  * Start in: ```C:\Users\eson\workspace\glogger\target\glogger```
+  * Program: 
+  <pre>
+  C:\Program Files (x86)\Java\jdk1.8.0_60\bin\java.exe
+  </pre>
+  * Add arguments: 
+  <pre>
+  -jar "C:\Users\eson\workspace\glogger\target\glogger\glogger.jar" "C:\Users\eson\workspace\glogger\target\glogger\config.properties"
+  </pre>
+  * Start in: 
+  <pre>
+  C:\Users\eson\workspace\glogger\target\glogger
+  </pre>
 
 
 ## To do
