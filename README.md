@@ -4,8 +4,8 @@
 
 ## Requisites
 
-  * [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 8
-  * [Firefox](https://www.mozilla.org/en-US/firefox/new/) browser
+  * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+  * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ## Usage
 
