@@ -16,6 +16,14 @@ git clone https://github.com/esonpaguia/glogger.git
   * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 
+
+## Build
+
+```
+mvn assembly:assembly
+```
+
+
 ## Usage
 
 Syntax:
