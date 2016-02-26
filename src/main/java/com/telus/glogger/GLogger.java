@@ -12,8 +12,10 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.support.ui.Select;
 
 /**
  * @author Eson Paguia
@@ -117,7 +119,19 @@ public final class GLogger {
 			driver.findElement(By.id("loggin-input_username")).click();
 
 			Thread.sleep(4000);
+            
+            WebElement loggerGroup = driver.findElement(By.id("loggin-select_instance"));
+        	Select loggerGroupOption = new Select(loggerGroup);
+            loggerGroupOption.selectByVisibleText("Ortigas Center(AGT)");
 
+            WebElement loggerSubGroup = driver.findElement(By.id("loggin-select_subgroup"));
+            Select loggerSubGroupOption = new Select(loggerSubGroup);
+            loggerSubGroupOption.selectByVisibleText("TELUS ITO-App Devt & Support"); 
+            
+            WebElement loggerStatus = driver.findElement(By.id("loggin-select_status"));
+            Select loggerStatusOption = new Select(loggerStatus);
+            loggerStatusOption.selectByVisibleText("Clock In");
+            
 			driver.findElement(By.id("loggin-input_accept")).click();
 			
 			Thread.sleep(4000);
